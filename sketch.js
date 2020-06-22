@@ -45,7 +45,7 @@ if (blueWins) { //playerOne is always blue
     disableRemainingItems()
     return winner
   }
-  if (redWins) { //red is computer
+  if (redWins) { //red computer
     winner = redWins
     console.log(`${computer} wins!`)
     $("#gameResult, #congratsOrSorry").removeClass("displayNone")
